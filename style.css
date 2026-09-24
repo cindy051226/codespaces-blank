@@ -1,0 +1,65 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Lora', Georgia, serif;
+}
+
+.section-1 {
+  background-image: url("heaven.jpg");
+}
+
+.section-2 {
+  background-image: url("sky.jpg");
+}
+
+.section-3 {
+  background-image: url("sunrise.jpg");
+}
+
+.section-4 {
+  background-image: url("bluesky.jpg");
+}
+
+.section-1, .section-2, .section-3, .section-4 {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.caption-text {
+  color: white;
+  font-family: 'Great Vibes', cursive;
+  font-size: 60px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+  padding: 15px;
+}
+
+.section-text {
+  padding: 50px 80px;
+  text-align: center;
+  background-color: #faf7f4;
+  color: #444;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.center-img {
+  width: 250px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
